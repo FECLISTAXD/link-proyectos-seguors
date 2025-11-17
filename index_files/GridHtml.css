@@ -1,0 +1,297 @@
+﻿.Pager
+    {
+        height: 40px;
+        text-align: right;
+        position: relative;
+        font-weight: 400;
+        position: relative;
+        background-color: #c9e7a8;
+        border-top-right-radius: 1em;
+        padding-right: 20px;
+    }
+    
+    .Pager span
+    {
+        text-align: center;
+        color: #fff;
+        display: inline-block;
+        width: 17px;
+        background-color: #006338;
+        margin-right: 3px;
+        margin-top: 10px;
+        line-height: 180%;
+        border: 1px solid #a9a9a9;
+        font-size:100%;        
+    }
+    
+    .Pager a
+    {
+        text-align: center;
+        display: inline-block;
+        width: 17px;
+        background-color: #2e8b57;
+        /*color: #fff;*/
+        border: 1px solid #a9a9a9;
+        margin-right: 3px;
+        line-height: 180%;
+        text-decoration: none;
+        font-size:100%;
+        background-image: url(../../../../Obout/styles/Grid/Galileo/page_number_normal.gif);
+    }
+    .Pager b
+    {
+        font-family: Verdana;
+        font-size: 10px;
+        color: #006338;
+        font-weight: normal;
+    }
+    
+    .tableGV
+    {
+        font-family: 'PromericaFont', arial, helvetica;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+    
+    .tableGV th
+    {
+        text-align: center;
+        height: 26px !important;
+        position: relative;
+        background-color: #c9e7a8;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: 120%;
+        padding-bottom: 9px;
+    }
+    .tableGV td
+    {
+        font-family: 'PromericaFont', arial, helvetica;
+        border: none;
+        text-align: left;
+        padding: 2px 5px 5px 3px;
+        height: 20px;
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        vertical-align: middle;
+    }
+    .td_highlight
+    {
+        font-family: 'PromericaFont', arial, helvetica !important;
+        border: none;
+        text-align: left;
+        padding: 5px;
+        height: 25px;        
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .tableGVBackG
+    {
+      background-color: #f5f5f5;
+      color : #006338; 
+    }
+
+    .tableGV_td_center {
+        text-align: center !important;
+    }
+
+    .gridLineHeight {
+        line-height: 17px;
+    }
+    .tableGV_td0
+    {   
+        width: 3% !important;
+    }
+    .tableGV_td1
+    {   
+        width: 5% !important;
+    }
+    .tableGV_td2
+    {   
+        width: 10% !important;
+    }
+    .tableGV_td3
+    {   
+        width: 15% !important;
+    }
+.tableGV_td34 {
+    width: 17% !important;
+}
+    .tableGV_td4
+    {   
+        width: 20% !important;
+    }
+     .tableGV_td5
+    {   
+        width: 25% !important;
+    }
+    .tableGV_td6
+    {   
+        width: 30% !important;
+    }
+    .tableGV_td7
+    {   
+        width: 40% !important;
+    }
+    .tableGV_td8
+    {   
+        width: 50% !important;
+    }
+    .tableGV_td9
+    {   
+        width: 60% !important;
+    }
+    
+    .tableGVEmpty
+    {        
+        text-align:center !important;
+    }
+    
+    .tdRight
+    {
+        float: right !important;
+        text-align: right !important;
+    }
+     .tRight
+    {        
+        text-align: right !important;
+    }
+     td.tLeft
+    {        
+        text-align: left !important;
+    }
+    
+    .footerGV
+    {
+        text-align: right;
+        height: 50px !important;
+        background-image: none !important;
+        background-color: #cee7ad !important;
+        width: 100% !important;
+        color: #636563 !important;
+        border-bottom-right-radius: 1em;
+    }
+    
+    .footerGVLine
+    {
+        text-align: right;
+        height: 10px !important;
+        background-image: none !important;
+        background-color: #cee7ad !important;
+        width: 100% !important;
+        color: #636563 !important;
+        border-bottom-right-radius: 1em;
+    }
+    
+    .buttonGridFooter
+    {
+        margin-right: 20px !important;
+        margin-top: 10px !important;        
+        min-width: 50px !important;
+    }
+    .buttonGridFooter2
+    {
+        margin: 2px 2px 0 0;               
+    }
+    .buttonGridFooter3
+    {
+        margin: 2px 14px 0 0;               
+    }
+    .image_more
+    {
+        background-image: url(../../images/plus.png);
+        background-repeat: no-repeat;
+        background-color: Transparent;
+        background-position: center top;
+        border: 0;
+        width: 25px;
+        height: 25px;
+        cursor:pointer;
+    }     
+    .trSelected {
+        background-color: #61BF1A;
+        color: #FFFFFF;
+    }
+    .trSelectedLight {
+        background-color: #dddddd;
+        color: #FFFFFF;
+    }
+.Linktd {
+    font-family: 'PromericaFont', arial, helvetica !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer !important;
+}
+
+.rowOption {
+    display: inline-block !important;
+    font-family: 'PromericaFont', arial, helvetica !important;
+    cursor: pointer !important;
+}
+
+.rowOptionSeparator {
+    padding-left: 7px;
+    padding-right: 7px;
+    display: inline-block !important;
+}
+
+.green_arrow {
+    background-image: url(../../images/green_arrow.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    background-position: center;
+    border: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+    .tdClick:hover 
+    {   
+        cursor:pointer !important;
+        text-decoration: underline !important;        
+    }
+    .tableGVthlast
+    {
+        height: 30px !important;                
+        border-top-right-radius: 1em !important;
+        -webkit-border-top-right-radius: 1em !important; /* Safari and webkit  */  
+        -moz-border-top-right-radius: 1em !important; /* Mozilla (FF, Seamonkey) */
+    }
+    .titleHeaderGV
+    {
+        text-align: right !important;        
+        background-image: none !important;
+        background-color: #cee7ad !important;
+        width: 78% !important;
+        font-size: 130% !important; 
+        font-family: 'PromericaFont', arial, helvetica !important; 
+        padding-right: 92px !important; 
+        padding-top: 10px !important; 
+        height: 2px !important;            
+    }
+    .headerLineGV
+    {
+        border-bottom: 3px solid white;          
+    }
+    .headerLinelessGV
+    {
+        border-bottom: 0px;          
+    }
+    .hide {
+        display: none;
+    }
+    .show {
+        visibility: visible;
+    }
+
+.groupGV {
+    padding-left: 30px !important;
+    padding-top: 5px !important;
+    background-color: #0d703a;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px 0px, inset rgba(0, 0, 0, 0.19) 0px 8px 8px 3px;
+    font-weight: bold !important;
+}

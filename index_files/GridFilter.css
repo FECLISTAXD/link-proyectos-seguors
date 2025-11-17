@@ -1,0 +1,91 @@
+﻿.ob_gFContTR
+{
+	border-top-right-radius: 0em !important;
+	background-color: rgb(201, 231, 168);
+	height: 46px;
+	width: 25px;
+	position: absolute;
+	right: -20px;
+	top: 0px;
+}
+
+.ob_gHCRS
+	{
+		border-top-right-radius: 0em;
+	}	
+	.ob_iTR
+	{
+		position: absolute;    	
+    	font-size: 1px;
+    	height: 21px;
+		width: 10px;
+		right: 0px;
+		background-image: none;
+	}
+    .ob_iTC
+	{
+		height: 21px;
+		line-height: 21px;
+		margin-left: 10px;
+		margin-right: 10px;
+		position: relative;
+		background-image: none;
+	}
+	.ob_iTL
+	{
+		position: absolute;
+    	font-size: 1px;
+    	height: 21px;
+    	width: 10px;
+    	left: 0px;
+    	background-image: none;
+	}	
+	.FormTRFilter 
+	{
+	    border-top-right-radius: 5em !important;
+	    background-color: rgb(201, 231, 168) ;
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: normal;
+	    text-align: left;
+	    color: #A2A27D;
+	    padding-right: 5px;
+	    padding-left: 5px;
+	    padding-bottom: 2px;
+	    padding-right: 2px;
+	    text-align: left;
+    }
+    
+    .TextFilter
+    {
+	    border:#00703C solid thin;
+	    border-radius:0.4em;
+	    font-size: 12px;
+        font-family:  helvetica, sans-serif;
+        color:#00703C;
+        background-color: white;
+	}
+	
+    input[type=text]{
+	    background-color: white;
+	}
+
+.FilterPending {
+    padding-left: 35px;
+    padding-top: 25px;
+    float: left;
+    padding-bottom: 15px;
+    background-color: #c9e7a8;
+}
+#divPager {
+    width: 50%;
+    float: right;
+    padding-bottom: 18px;
+}
+
+#headerPendinTransaction {
+    height: 60px;
+    background-color: #c9e7a8;
+}
+
+    

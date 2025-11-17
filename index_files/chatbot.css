@@ -1,0 +1,533 @@
+@@media all and (max-width:530px) {
+
+    .divPrincipal {
+        border: medium none !important;
+        visibility: visible !important;
+        width: 288pt !important;
+        height: 211px !important;
+        border-radius: 9pt !important;
+        bottom: 56pt !important;
+        padding: 0px !important;
+        position: fixed !important;
+        right: -40pt !important;
+        top: auto !important;
+        z-index: 2147483647 !important;
+        max-height: 100% !important;
+    }
+
+    .promptContainer {
+        width: 325px !important;
+    }
+
+        .promptContainer .promptFooterContainer .promptButton {
+            font-size: 9pt !important;
+        }
+}
+
+.label2 {
+    color: #92D070;
+    font-size: 20px;
+}
+
+.divPrincipal {
+    border: medium none;
+    visibility: visible;
+    width: 288pt;
+    height: 230px;
+    border-radius: 9pt;
+    bottom: 56pt;
+    padding: 0px;
+    position: fixed;
+    right: 9pt;
+    top: auto;
+    z-index: 2147483647;
+    max-height: 100%;
+}
+
+.promptContainer,
+.promptContainer span {
+    font-family: SF Pro Text, Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif !important;
+}
+
+.promptContainer {
+    background-color: #fff;
+    border-radius: 12px;
+    bottom: 0;
+    box-shadow: 0 1pt 12pt rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    width: 360px;
+}
+
+    .promptContainer .promptHeaderContainer {
+        border-bottom: rgba(0, 0, 0, .03);
+        border-radius: 12px 12px 0 0;
+        box-shadow: 0 -5px 20px 1px rgba(0, 0, 0, .03) inset;
+        display: inline-block;
+        padding: 12px 0;
+        position: relative;
+    }
+
+    .promptContainer .promptFooterContainer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        padding: 12px;
+        width: 336px;
+    }
+
+    .promptContainer .promptHeaderContainer .profilePicture {
+        border: .5pt solid rgba(0, 0, 0, .10);
+        border-radius: 50%;
+        height: 20pt;
+        width: 20pt;
+    }
+
+    .promptContainer .promptFooterContainer .promptButton {
+        border-radius: 10px;
+        color: #fff;
+        display: flex;
+        font-size: 11pt;
+        max-width: 336px;
+        min-height: 30px;
+        outline: none;
+        padding: 8px 30px;
+        width: 210px;
+    }
+
+    .promptContainer .promptHeaderContainer .promptHeaderCloseButtonContainer {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+    }
+
+    .promptContainer .promptHeaderAndBubbleContainer {
+        float: left;
+        margin-left: 52px;
+        margin-right: 52px;
+    }
+
+        .promptContainer .promptHeaderAndBubbleContainer .promptTextBubble {
+            background-color: #f1f0f0;
+            border-radius: 1.3em;
+            color: rgba(0, 0, 0, 1);
+            display: inline-block;
+            font-size: 11pt;
+            max-width: 260px;
+            padding: 8px 12px;
+            text-align: left;
+            width: fit-content;
+            word-wrap: break-word;
+        }
+
+.CloseButtonContainer {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 18pt;
+    justify-content: center;
+    outline: none;
+    width: 18pt;
+}
+
+.promptContainer .profilePictureContainer {
+    bottom: 18px;
+    float: left;
+    height: 28px;
+    padding-left: 14px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.PromericaHeader {
+    position: relative;
+}
+
+/*burbuja*/
+#botonOpcionesChat .default-icon {
+    width: 55%;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botonOpcionesChat {
+    position: fixed;
+    right: 35px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    z-index: 9998;
+    cursor: pointer;
+    transform-origin: bottom;
+    bottom: 10px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fa {
+    margin-top: 4px !important;
+}
+
+showDiv {
+    display: block;
+}
+
+.hideDiv {
+    display: none;
+}
+
+#web-messenger-container {
+    right: 25px !important;
+    bottom: 65px !important;
+}
+
+.wrapper {
+    background-color: #F0E1C2;
+}
+
+.chatbox {
+    float: right;
+}
+
+/*! Fuente ExtraLight tamanno 200 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-ExtraLight.eot');
+    src: local('Nunito Sans ExtraLight'), local('NunitoSans-ExtraLight'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLight.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLight.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLight.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-ExtraLightItalic.eot');
+    src: local('Nunito Sans ExtraLight Italic'), local('NunitoSans-ExtraLightItalic'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLightItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLightItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente Light tamanno 300 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Light.eot');
+    src: local('Nunito Sans Light'), local('NunitoSans-Light'), url('/fonts/Nunito_Sans/NunitoSans-Light.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Light.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Light.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-LightItalic.eot');
+    src: local('Nunito Sans Light Italic'), local('NunitoSans-LightItalic'), url('/fonts/Nunito_Sans/NunitoSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-LightItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-LightItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente tamanno 400 version normal */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Regular.eot');
+    src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url('/fonts/Nunito_Sans/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Regular.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Regular.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Regular.eot');
+    src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url('/fonts/Nunito_Sans/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Regular.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Regular.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/*! Fuente tamanno 400 version cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Italic.eot');
+    src: local('Nunito Sans Italic'), local('NunitoSans-Italic'), url('/fonts/Nunito_Sans/NunitoSans-Italic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Italic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Italic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Italic.eot');
+    src: local('Nunito Sans Italic'), local('NunitoSans-Italic'), url('/fonts/Nunito_Sans/NunitoSans-Italic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Italic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Italic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente Light tamanno 500 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Medium.eot');
+    src: local('Nunito Sans Medium'), local('NunitoSans-Medium'), url('/fonts/Nunito_Sans/NunitoSans-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Medium.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Medium.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-MediumItalic.eot');
+    src: local('Nunito Sans Medium Italic'), local('NunitoSans-MediumItalic'), url('/fonts/Nunito_Sans/NunitoSans-MediumItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-MediumItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-MediumItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente Light tamanno 600 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-SemiBold.eot');
+    src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'), url('/fonts/Nunito_Sans/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-SemiBold.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-SemiBold.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.eot');
+    src: local('Nunito Sans SemiBold Italic'), local('NunitoSans-SemiBoldItalic'), url('/fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente Bold tamanno 700 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Bold.eot');
+    src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url('/fonts/Nunito_Sans/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Bold.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Bold.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Bold.eot');
+    src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url('/fonts/Nunito_Sans/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Bold.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Bold.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.eot');
+    src: local('Nunito Sans Bold Italic'), local('NunitoSans-BoldItalic'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.eot');
+    src: local('Nunito Sans Bold Italic'), local('NunitoSans-BoldItalic'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente ExtraBold tamanno 800 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-ExtraBold.eot');
+    src: local('Nunito Sans ExtraBold'), local('NunitoSans-ExtraBold'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBold.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBold.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.eot');
+    src: local('Nunito Sans ExtraBold Italic'), local('NunitoSans-ExtraBoldItalic'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+/*! Fuente Black tamanno 900 version normal y cursiva */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-Black.eot');
+    src: local('Nunito Sans Black'), local('NunitoSans-Black'), url('/fonts/Nunito_Sans/NunitoSans-Black.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-Black.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-Black.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/fonts/Nunito_Sans/NunitoSans-BlackItalic.eot');
+    src: local('Nunito Sans Black Italic'), local('NunitoSans-BlackItalic'), url('/fonts/Nunito_Sans/NunitoSans-BlackItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/Nunito_Sans/NunitoSans-BlackItalic.woff2') format('woff2'), url('/fonts/Nunito_Sans/NunitoSans-BlackItalic.woff') format('woff'), url('/fonts/Nunito_Sans/NunitoSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+.oda-chat-connected,
+.oda-chat-connection-status,
+.oda-chat-disconnected,
+.oda-chat-header,
+.oda-chat-logo,
+.oda-chat-subtitle,
+.oda-chat-title,
+.oda-chat-wrapper {
+    color: #fff;
+    background: #00693c !important;
+}
+
+.oda-chat-conversation {
+    background: #fff;
+}
+
+.oda-chat-left .oda-chat-message-bubble,
+.oda-chat-left .oda-chat-message-footer,
+.oda-chat-left .oda-chat-message-header {
+    background: #f4f4f4;
+    color: #161513;
+    font: 11px;
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.oda-chat-action-postback {
+    border-radius: 15px !important;
+    color: #fff !important;
+    background: #00693c;
+    border-color: #00693c;
+    width: 185px;
+    text-align: center;
+}
+
+.oda-chat-message-actions .oda-chat-action-postback {
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 13.75px;
+    font-weight: 700;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 12px 24px;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.oda-chat-wrapper {
+    background-color: #fff !important;
+    /*    height: 0 !important;
+    width: 0 !important;*/
+}
+
+.oda-chat-disabled {
+    color: #fff !important;
+    background: #c5c5c5 !important;
+    border: 1px solid #c5c5c5 !important;
+}
+
+.oda-chat-wrapper .oda-chat-card .oda-chat-card-title {
+    font-weight: 100 !important;
+}
+
+.oda-chat-wrapper .oda-chat-button {
+    border-radius: 50% !important;
+}
+
+.oda-chat-wrapper .oda-chat-header-button svg > path {
+    fill: #fff !important;
+}
+
+.oda-chat-footer-button-svg-icon {
+    height: 24px;
+    fill: #787570;
+    width: 24px;
+}
+
+.oda-chat-user-input {
+    caret-color: #0d703a;
+    background: #fff;
+    font: 11px;
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid #dadada !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+    color: #333 !important;
+    flex: 1 !important;
+    height: 36px !important;
+    margin-left: 6px !important;
+    margin-right: -40px !important;
+    min-height: 36px !important;
+    max-height: 61px !important;
+    outline: 0 !important;
+    padding: 6px 14px !important;
+    resize: none !important;
+    overflow: hidden !important;
+}
+
+.oda-chat-button-send {
+    display: block !important;
+}
+
+.button.oda-chat-icon {
+    color: #bbb6b2;
+}
+
+.oda-chat-wrapper .oda-chat-action-postback {
+    display: block;
+    text-align: center !important;
+}
+
+#AsistenteVirtual {
+    cursor: pointer;
+}
+
+.oda-chat-wrapper:not(.oda-chat-embedded) {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% !important;
+    border-radius: 50% !important;
+    bottom: 5pt !important;
+    display: inline !important;
+    height: 45pt !important;
+    padding: 0px !important;
+    position: fixed !important;
+    right: 18pt !important;
+    top: auto !important;
+    width: 45pt !important;
+}
+
+.oda-chat-button {
+    position: fixed !important;
+    right: 35px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+    z-index: 9998 !important;
+    cursor: pointer !important;
+    transform-origin: bottom !important;
+    bottom: 10px !important;
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    width: 58px !important;
+    height: 58px !important;
+    background-color: #69be28 !important;
+}
+
+.oda-chat-wrapper button img {
+    width: 100% !important;
+    height: auto !important;
+}

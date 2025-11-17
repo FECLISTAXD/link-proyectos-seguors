@@ -1,0 +1,91 @@
+﻿    .ob_gCFR .ob_gC, .ob_gCFR .ob_gCW
+    {
+        height: 40px !important;			    
+        background-image: none !important;
+        background-color: #cee7ad !important;
+        width:100% !important;			   
+        color: #636563  !important;
+    }
+    .ob_gCFCont .ob_gCS
+    {
+        background-color: transparent !important;
+    }
+	.ob_iTR
+	{
+		position: absolute;    	
+    	font-size: 1px;
+    	height: 21px;
+		width: 10px;
+		right: 0px;
+		background-image: none !important;
+	}
+    .ob_iTC
+	{
+		height: 21px;
+		line-height: 21px;
+		margin-left: 10px;
+		margin-right: 10px;
+		position: relative;
+		background-image: none !important;
+	}
+	.ob_iTL
+	{
+		position: absolute;
+    	font-size: 1px;
+    	height: 21px;
+    	width: 10px;
+    	left: 0px;
+    	background-image: none !important;
+	}	
+	.FormTRFilter 
+	{
+	    border-top-right-radius: 5em !important;
+	    background-color: rgb(201, 231, 168) ;
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: normal;
+	    text-align: left;
+	    color: #A2A27D;
+	    padding-right: 5px;
+	    padding-left: 5px;
+	    padding-bottom: 2px;
+	    padding-right: 2px;	    
+	    text-align: left;
+    }
+    
+    .TextFilter
+    {
+	    border:#00703C solid thin;
+	    border-radius:0.4em;
+	    font-size: 12px;
+        font-family:  helvetica, sans-serif;
+        color:#00703C;
+        background-color: white;
+	}
+	
+    input[type=text]{
+	    background-color: white;
+	    
+	}
+	
+	.ob_gFCont /*.ob_gridFooterContent*/
+    {		
+	/*background-image: url(footer.gif);*/
+	background-color: #c9e7a8;
+	padding: 0px;
+	margin-top: 0px;
+	border: 0px;
+	height: 35px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	position: relative;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10px;
+	color:#00703C; /*#FFFFFF;*/
+	white-space: nowrap;
+	z-index: 0;
+	text-align: left;
+}	    

@@ -1,0 +1,17 @@
+﻿function ShowLoading() {
+    var vBackDiv = document.getElementById("BackDiv"),
+        vLoadingDiv = document.getElementById("LoadingDiv");
+    if (vBackDiv != null && vLoadingDiv != null) {
+        vBackDiv.style.display = "block";
+        vLoadingDiv.style.display = "block";
+    }
+}
+
+function HideLoading() {
+    var vBackDiv = document.getElementById("BackDiv"),
+        vLoadingDiv = document.getElementById("LoadingDiv");
+    if (vBackDiv && vLoadingDiv) {
+        vBackDiv.style.display = "none";
+        vLoadingDiv.style.display = "none";
+    }
+}

@@ -1,0 +1,76 @@
+﻿#wrapper
+{  
+    width:620px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left
+{
+    float:left;  
+    width:320px; 
+    height:260px;
+    text-align:center;  
+}
+
+#leftHeader
+{
+    background-color:#006600; 
+    padding:5px;
+}
+
+#leftHeader span
+{
+     color:White !important; 
+     font-size:16px;   
+}
+  
+#right
+{
+    float:right; 
+    width:280px;
+    height:260px;
+    text-align:center;       
+}
+
+#rightHeader
+{
+    background-color:#006600;
+    padding:5px;  
+}
+
+#rightHeader span
+{
+     color:White !important;
+     font-size:16px;
+}
+
+#messages
+{  
+    width:620px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+}
+
+#messagesHeader
+{
+    text-align:center;    
+}
+
+#messagesHeader span
+{
+    font-size:16px;
+    color:Black;
+    font-family:Arial;
+    font-weight:bold;
+    text-decoration:underline;
+    
+}
+
+#messagesBody
+{
+    display:block;    
+}
